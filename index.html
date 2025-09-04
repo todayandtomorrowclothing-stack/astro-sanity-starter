@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Today and Tomorrow - Excellence in Hospitality Management, Premium Clothing, and Luxury Tours & Travels">
+  <meta name="keywords" content="hospitality, management, clothing, tours, travels, luxury">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
+  <title>Today and Tomorrow - Excellence Across Industries</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="loading-screen" class="loading-screen">
+    <div class="loading-spinner"></div>
+    <p>Loading Excellence...</p>
+  </div>
+
+  <header class="header" id="header">
+    <nav class="nav">
+      <div class="nav-brand">
+        <h1 class="brand-title">Today & Tomorrow</h1>
+        <span class="brand-tagline">Excellence Across Industries</span>
+      </div>
+      
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link active" data-section="home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" data-section="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#services" class="nav-link" data-section="services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section id="home" class="section hero-section active">
+      <div class="hero-content">
+        <h2 class="hero-title">Shaping Tomorrow, Today</h2>
+        <p class="hero-description">
+          We excel across three distinct industries: Hospitality Management, Premium Clothing, and Luxury Tours & Travels. 
+          Our commitment to excellence drives innovation and creates exceptional experiences.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary" data-action="explore">Explore Our Services</button>
+          <button class="btn btn-secondary" data-action="contact">Get In Touch</button>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="floating-cards">
+          <div class="floating-card" data-service="hospitality">
+            <div class="card-icon">🏨</div>
+            <h3>Hospitality</h3>
+          </div>
+          <div class="floating-card" data-service="clothing">
+            <div class="card-icon">👔</div>
+            <h3>Clothing</h3>
+          </div>
+          <div class="floating-card" data-service="tours">
+            <div class="card-icon">✈️</div>
+            <h3>Tours & Travels</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">About Today & Tomorrow</h2>
+          <p class="section-subtitle">Building bridges between today's vision and tomorrow's reality</p>
+        </header>
+        
+        <div class="about-content">
+          <div class="about-text">
+            <p class="about-description">
+              Founded on the principle of excellence, Today & Tomorrow has established itself as a leader across multiple industries. 
+              Our diverse portfolio spans hospitality management, premium clothing, and luxury tours & travels, each division 
+              maintaining the highest standards of quality and innovation.
+            </p>
+            
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-number" data-target="150">0</span>
+                <span class="stat-label">Hotels Managed</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="50000">0</span>
+                <span class="stat-label">Clothing Items Sold</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="25000">0</span>
+                <span class="stat-label">Tours Organized</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="98">0</span>
+                <span class="stat-label">% Customer Satisfaction</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-values">
+            <h3 class="values-title">Our Core Values</h3>
+            <div class="values-list">
+              <div class="value-item">
+                <div class="value-icon">🎯</div>
+                <div class="value-content">
+                  <h4>Excellence</h4>
+                  <p>We strive for perfection in every aspect of our business operations.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon">🚀</div>
+                <div class="value-content">
+                  <h4>Innovation</h4>
+                  <p>Constantly evolving and adapting to meet tomorrow's challenges today.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon">🤝</div>
+                <div class="value-content">
+                  <h4>Integrity</h4>
+                  <p>Building trust through transparent and ethical business practices.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Our Services</h2>
+          <p class="section-subtitle">Three distinct industries, one commitment to excellence</p>
+        </header>
+        
+        <div class="services-tabs">
+          <button class="tab-button active" data-tab="hospitality">Hospitality Management</button>
+          <button class="tab-button" data-tab="clothing">Premium Clothing</button>
+          <button class="tab-button" data-tab="tours">Tours & Travels</button>
+        </div>
+        
+        <div class="services-content">
+          <div id="hospitality" class="service-panel active">
+            <div class="service-hero">
+              <div class="service-info">
+                <h3 class="service-title">Hospitality Management</h3>
+                <p class="service-description">
+                  We redefine hospitality through innovative management solutions, creating memorable experiences 
+                  that exceed guest expectations. Our comprehensive approach covers everything from luxury hotels 
+                  to boutique establishments.
+                </p>
+              </div>
+              <div class="service-image">
+                <div class="image-placeholder hospitality-bg">
+                  <span class="service-icon">🏨</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="service-features">
+              <div class="feature-grid">
+                <div class="feature-item">
+                  <div class="feature-icon">🛎️</div>
+                  <h4>Luxury Hotel Management</h4>
+                  <p>Full-service management for premium hospitality properties with focus on guest satisfaction.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">📊</div>
+                  <h4>Revenue Optimization</h4>
+                  <p>Advanced analytics and pricing strategies to maximize profitability and occupancy rates.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">👥</div>
+                  <h4>Staff Training & Development</h4>
+                  <p>Comprehensive training programs to ensure exceptional service delivery at all levels.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">🔧</div>
+                  <h4>Operations Management</h4>
+                  <p>Streamlined operations ensuring efficiency, quality control, and cost optimization.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">💻</div>
+                  <h4>Technology Integration</h4>
+                  <p>Modern PMS systems, mobile check-in, and smart room technologies for enhanced guest experience.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">🌟</div>
+                  <h4>Brand Development</h4>
+                  <p>Creating unique brand identities that resonate with target markets and drive loyalty.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div id="clothing" class="service-panel">
+            <div class="service-hero">
+              <div class="service-info">
+                <h3 class="service-title">Premium Clothing</h3>
+                <p class="service-description">
+                  Our clothing division represents the pinnacle of fashion and quality, offering premium garments 
+                  that blend contemporary style with timeless elegance. From business attire to casual wear, 
+                  we craft clothing that makes a statement.
+                </p>
+              </div>
+              <div class="service-image">
+                <div class="image-placeholder clothing-bg">
+                  <span class="service-icon">👔</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="service-features">
+              <div class="feature-grid">
+                <div class="feature-item">
+                  <div class="feature-icon">✂️</div>
+                  <h4>Custom Tailoring</h4>
+                  <p>Bespoke clothing crafted to perfection with attention to every detail and personal preference.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">🧵</div>
+                  <h4>Premium Materials</h4>
+                  <p>Only the finest fabrics and materials sourced from renowned suppliers worldwide.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">👗</div>
+                  <h4>Fashion Collections</h4>
+                  <p>Seasonal collections featuring the latest trends while maintaining classic sophistication.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">💼</div>
+                  <h4>Corporate Wear</h4>
+                  <p>Professional attire designed to make powerful impressions in business environments.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">🌿</div>
+                  <h4>Sustainable Fashion</h4>
+                  <p>Eco-friendly production processes and sustainable materials for conscious consumers.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">📏</div>
+                  <h4>Perfect Fit Guarantee</h4>
+                  <p>Advanced fitting techniques and alterations to ensure every garment fits perfectly.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div id="tours" class="service-panel">
+            <div class="service-hero">
+              <div class="service-info">
+                <h3 class="service-title">Tours & Travels</h3>
+                <p class="service-description">
+                  Discover the world with our luxury travel services. We curate extraordinary journeys that 
+                  combine adventure, comfort, and cultural immersion. From exotic destinations to hidden gems, 
+                  we make every trip an unforgettable experience.
+                </p>
+              </div>
+              <div class="service-image">
+                <div class="image-placeholder tours-bg">
+                  <span class="service-icon">✈️</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="service-features">
+              <div class="feature-grid">
+                <div class="feature-item">
+                  <div class="feature-icon">🗺️</div>
+                  <h4>Custom Itineraries</h4>
+                  <p>Personalized travel plans crafted according to your preferences, interests, and schedule.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">🏖️</div>
+                  <h4>Luxury Destinations</h4>
+                  <p>Exclusive access to premium resorts, private islands, and luxury accommodations worldwide.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">🚁</div>
+                  <h4>Adventure Tours</h4>
+                  <p>Thrilling experiences including helicopter tours, safari adventures, and extreme sports.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">🏛️</div>
+                  <h4>Cultural Experiences</h4>
+                  <p>Immersive cultural tours with local guides and authentic experiences in historic locations.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">💎</div>
+                  <h4>VIP Services</h4>
+                  <p>Premium travel services including private jets, luxury transfers, and concierge support.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">📱</div>
+                  <h4>24/7 Support</h4>
+                  <p>Round-the-clock assistance and support throughout your journey for peace of mind.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Ready to experience excellence? Let's start a conversation</p>
+        </header>
+        
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div class="contact-details">
+                <h4>Our Location</h4>
+                <p>123 Excellence Boulevard<br>Innovation District<br>Metro City, MC 12345</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div class="contact-details">
+                <h4>Phone Numbers</h4>
+                <p>Main: +1 (555) 123-4567<br>Hospitality: +1 (555) 123-4568<br>Clothing: +1 (555) 123-4569<br>Tours: +1 (555) 123-4570</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-details">
+                <h4>Email Addresses</h4>
+                <p>info@todayandtomorrow.com<br>hospitality@todayandtomorrow.com<br>clothing@todayandtomorrow.com<br>tours@todayandtomorrow.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">🕒</div>
+              <div class="contact-details">
+                <h4>Business Hours</h4>
+                <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+          
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name *</label>
+              <input type="text" id="name" name="name" class="form-input" required>
+              <span class="form-error" id="name-error"></span>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address *</label>
+              <input type="email" id="email" name="email" class="form-input" required>
+              <span class="form-error" id="email-error"></span>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="form-input">
+              <span class="form-error" id="phone-error"></span>
+            </div>
+            
+            <div class="form-group">
+              <label for="service" class="form-label">Service Interest *</label>
+              <select id="service" name="service" class="form-select" required>
+                <option value="">Select a service</option>
+                <option value="hospitality">Hospitality Management</option>
+                <option value="clothing">Premium Clothing</option>
+                <option value="tours">Tours & Travels</option>
+                <option value="multiple">Multiple Services</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="form-error" id="service-error"></span>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Message *</label>
+              <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+              <span class="form-error" id="message-error"></span>
+            </div>
+            
+            <div class="form-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="privacy" name="privacy" required>
+                <span class="checkbox-custom"></span>
+                I agree to the <a href="#" class="privacy-link">Privacy Policy</a> and <a href="#" class="terms-link">Terms of Service</a> *
+              </label>
+              <span class="form-error" id="privacy-error"></span>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3 class="footer-title">Today & Tomorrow</h3>
+          <p class="footer-description">Excellence across industries, shaping tomorrow today.</p>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4 class="footer-heading">Services</h4>
+            <ul class="footer-list">
+              <li><a href="#services" class="footer-link">Hospitality Management</a></li>
+              <li><a href="#services" class="footer-link">Premium Clothing</a></li>
+              <li><a href="#services" class="footer-link">Tours & Travels</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h4 class="footer-heading">Company</h4>
+            <ul class="footer-list">
+              <li><a href="#about" class="footer-link">About Us</a></li>
+              <li><a href="#contact" class="footer-link">Contact</a></li>
+              <li><a href="#" class="footer-link">Careers</a></li>
+              <li><a href="#" class="footer-link">News</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h4 class="footer-heading">Legal</h4>
+            <ul class="footer-list">
+              <li><a href="#" class="footer-link">Privacy Policy</a></li>
+              <li><a href="#" class="footer-link">Terms of Service</a></li>
+              <li><a href="#" class="footer-link">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2024 Today & Tomorrow. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+          <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+          <a href="#" class="social-link" aria-label="Instagram">📷</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="notification" class="notification">
+    <div class="notification-content">
+      <span class="notification-message"></span>
+      <button class="notification-close">&times;</button>
+    </div>
+  </div>
+
+  <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top">
+    <span class="scroll-arrow">↑</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
